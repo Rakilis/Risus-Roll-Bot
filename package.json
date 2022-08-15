@@ -1,6 +1,7 @@
 {
   "name": "risus_roll_bot",
   "version": "1.0.0",
+  "engines": {"node": "16.16.0"},
   "description": "",
   "main": "bot.js",
   "scripts": {
