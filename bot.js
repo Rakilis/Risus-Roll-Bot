@@ -16,6 +16,7 @@ const client = new Client({ intents: [
 client.on('ready', () => {
     console.log('Logged in!');
   });
+port = process.env.PORT || 80
 
 //  !rroll n = risus roll (1,2,3,4,5,6) n times
 //  !droll n = demi roll (1,2,3,0,0,0) n times
